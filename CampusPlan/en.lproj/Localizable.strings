@@ -1,0 +1,18 @@
+/* Localizable.strings
+  CampusPlan
+
+  Created by Benni on 14.02.13.
+  Copyright (c) 2013 Ifgi. All rights reserved. */
+
+"Cellular" = "Cellular";
+
+"kErrorLoadingPage" = "Error loading page";
+
+"kInitStatusMessage" = "Loading Campus Plan";
+
+"kNoInternetConnection" = "An internet connection is required to use Campus Plan";
+
+"No Connection" = "No Connection";
+
+"WiFi" = "WiFi";
+
