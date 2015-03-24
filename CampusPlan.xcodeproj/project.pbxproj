@@ -41,13 +41,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B30B63A716C2B6CE00726D81 /* CampusPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30B63A716C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campusplan.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30B63AA16C2B6CE00726D81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B30B63AC16C2B6CE00726D81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B30B63AE16C2B6CE00726D81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B30B63B216C2B6CE00726D81 /* CampusPlan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampusPlan-Info.plist"; sourceTree = "<group>"; };
+		B30B63B216C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Campusplan.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
 		B30B63B616C2B6CE00726D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B30B63B816C2B6CE00726D81 /* CampusPlan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampusPlan-Prefix.pch"; sourceTree = "<group>"; };
+		B30B63B816C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Campusplan.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
 		B30B63B916C2B6CE00726D81 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
 		B30B63BA16C2B6CE00726D81 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
 		B30B63C816C2B6CE00726D81 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		B30B63A816C2B6CE00726D81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B30B63A716C2B6CE00726D81 /* CampusPlan.app */,
+				B30B63A716C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,10 +150,10 @@
 				B32F872116C2C7FA00F7F53E /* background-568h@2x.png */,
 				B32F872516C2CD9000F7F53E /* background@2x~ipad.png */,
 				B32F872616C2CD9000F7F53E /* background~ipad.png */,
-				B30B63B216C2B6CE00726D81 /* CampusPlan-Info.plist */,
+				B30B63B216C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Info.plist */,
 				B30B63B616C2B6CE00726D81 /* main.m */,
 				B30FEE4216CD14CB0032D483 /* InfoPlist.strings */,
-				B30B63B816C2B6CE00726D81 /* CampusPlan-Prefix.pch */,
+				B30B63B816C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Prefix.pch */,
 				B3E969C916E75827000098EC /* Default-Portrait@2x~ipad.png */,
 				B3E969C716E75800000098EC /* Default-Landscape@2x~ipad.png */,
 				B3E969C516E757FA000098EC /* Default-Landscape~ipad.png */,
@@ -176,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B30B63A616C2B6CE00726D81 /* CampusPlan */ = {
+		B30B63A616C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "CampusPlan" */;
+			buildConfigurationList = B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "Campusplan.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				B30B63A316C2B6CE00726D81 /* Sources */,
 				B30B63A416C2B6CE00726D81 /* Frameworks */,
@@ -188,9 +188,9 @@
 			);
 			dependencies = (
 			);
-			name = CampusPlan;
+			name = Campusplan.temp_caseinsensitive_rename;
 			productName = CampusPlan;
-			productReference = B30B63A716C2B6CE00726D81 /* CampusPlan.app */;
+			productReference = B30B63A716C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +203,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Ifgi;
 			};
-			buildConfigurationList = B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "CampusPlan" */;
+			buildConfigurationList = B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "Campusplan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B30B63A616C2B6CE00726D81 /* CampusPlan */,
+				B30B63A616C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename */,
 			);
 		};
 /* End PBXProject section */
@@ -297,8 +297,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Benjamin Böcker (3NLL74TXVL)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Benjamin Böcker (3NLL74TXVL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Benjamin Böcker (3NLL74TXVL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Benjamin Böcker (3NLL74TXVL)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -353,10 +353,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CampusPlan/CampusPlan-Prefix.pch";
-				INFOPLIST_FILE = "CampusPlan/CampusPlan-Info.plist";
+				GCC_PREFIX_HEADER = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Campusplan.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -365,10 +365,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CampusPlan/CampusPlan-Prefix.pch";
-				INFOPLIST_FILE = "CampusPlan/CampusPlan-Info.plist";
+				GCC_PREFIX_HEADER = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Campusplan.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -376,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "CampusPlan" */ = {
+		B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "Campusplan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B30B63CB16C2B6CE00726D81 /* Debug */,
@@ -385,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "CampusPlan" */ = {
+		B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "Campusplan.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B30B63CE16C2B6CE00726D81 /* Debug */,
