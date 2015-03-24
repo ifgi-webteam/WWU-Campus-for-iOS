@@ -8,9 +8,9 @@
 
 "kErrorLoadingPage" = "Fehler beim Laden der Seite";
 
-"kInitStatusMessage" = "Campus Plan wird geladen";
+"kInitStatusMessage" = "Campusplan wird geladen";
 
-"kNoInternetConnection" = "Eine Internetverbindung wird benötigt um den Campus Plan zu benutzen";
+"kNoInternetConnection" = "Eine Internetverbindung wird benötigt um den Campusplan zu benutzen";
 
 "No Connection" = " ";
 
