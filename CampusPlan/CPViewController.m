@@ -9,7 +9,7 @@
 #import "CPViewController.h"
 #import "Reachability.h"
 
-static NSString * const kWebAppUrl = @"http://app.uni-muenster.de"; // WebApp URL
+static NSString * const kWebAppUrl = @"https://app.uni-muenster.de"; // WebApp URL
 static float const kFadeInOutAnimationDuration = 0.3; // Animation Duration for fading in and out
 
 @interface CPViewController () <UIWebViewDelegate>
@@ -22,10 +22,10 @@ static float const kFadeInOutAnimationDuration = 0.3; // Animation Duration for 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
 	// Add an observer to vertically center the status text
 	[self.statusTextView addObserver:self forKeyPath:@"contentSize" options:(NSKeyValueObservingOptionNew) context:NULL];
-	
+    
 	// Reachability object for testing of internet connection
 	Reachability *reachability = [Reachability reachabilityWithHostname:@"www.google.com"];
 	
