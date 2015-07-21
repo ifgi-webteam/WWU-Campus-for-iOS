@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5853E8441B52AAE5009A1F75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5853E8431B52AAE5009A1F75 /* Images.xcassets */; };
+		5891BC7B1B5AFF0F0074AD36 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5891BC791B5AFF0F0074AD36 /* background.png */; };
+		5891BC7C1B5AFF0F0074AD36 /* background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5891BC7A1B5AFF0F0074AD36 /* background~ipad.png */; };
 		B30B63AB16C2B6CE00726D81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30B63AA16C2B6CE00726D81 /* UIKit.framework */; };
 		B30B63AD16C2B6CE00726D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30B63AC16C2B6CE00726D81 /* Foundation.framework */; };
 		B30B63AF16C2B6CE00726D81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30B63AE16C2B6CE00726D81 /* CoreGraphics.framework */; };
@@ -19,35 +22,19 @@
 		B30FEE4316CD14CB0032D483 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B30FEE4216CD14CB0032D483 /* InfoPlist.strings */; };
 		B32F871C16C2C08500F7F53E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F871B16C2C08500F7F53E /* Reachability.m */; };
 		B32F871E16C2C0D700F7F53E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32F871D16C2C0D700F7F53E /* SystemConfiguration.framework */; };
-		B32F872216C2C7FA00F7F53E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B32F871F16C2C7FA00F7F53E /* background.png */; };
-		B32F872316C2C7FA00F7F53E /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B32F872016C2C7FA00F7F53E /* background@2x.png */; };
-		B32F872416C2C7FA00F7F53E /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B32F872116C2C7FA00F7F53E /* background-568h@2x.png */; };
-		B32F872716C2CD9000F7F53E /* background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B32F872516C2CD9000F7F53E /* background@2x~ipad.png */; };
-		B32F872816C2CD9000F7F53E /* background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B32F872616C2CD9000F7F53E /* background~ipad.png */; };
-		B3E969A216E7505E000098EC /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969A116E7505E000098EC /* Icon-72@2x.png */; };
-		B3E969A416E75069000098EC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969A316E75069000098EC /* Icon-72.png */; };
-		B3E969A616E7507C000098EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969A516E7507C000098EC /* Icon.png */; };
-		B3E969A816E75081000098EC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969A716E75081000098EC /* Icon@2x.png */; };
-		B3E969AC16E7508F000098EC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969A916E7508F000098EC /* Icon-Small-50.png */; };
-		B3E969AD16E7508F000098EC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969AA16E7508F000098EC /* Icon-Small.png */; };
-		B3E969AE16E7508F000098EC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969AB16E7508F000098EC /* Icon-Small@2x.png */; };
-		B3E969BE16E75590000098EC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969BD16E75590000098EC /* Default.png */; };
-		B3E969C016E7559F000098EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969BF16E7559F000098EC /* Default@2x.png */; };
-		B3E969C216E755A7000098EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969C116E755A7000098EC /* Default-568h@2x.png */; };
-		B3E969C416E755B8000098EC /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969C316E755B8000098EC /* Default-Portrait~ipad.png */; };
-		B3E969C616E757FA000098EC /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969C516E757FA000098EC /* Default-Landscape~ipad.png */; };
-		B3E969C816E75800000098EC /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969C716E75800000098EC /* Default-Landscape@2x~ipad.png */; };
-		B3E969CA16E75827000098EC /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E969C916E75827000098EC /* Default-Portrait@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B30B63A716C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campusplan.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5853E8431B52AAE5009A1F75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Campusplan/Images.xcassets; sourceTree = "<group>"; };
+		5891BC791B5AFF0F0074AD36 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = assets/background.png; sourceTree = SOURCE_ROOT; };
+		5891BC7A1B5AFF0F0074AD36 /* background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background~ipad.png"; path = "assets/background~ipad.png"; sourceTree = SOURCE_ROOT; };
+		B30B63A716C2B6CE00726D81 /* Campusplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campusplan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30B63AA16C2B6CE00726D81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B30B63AC16C2B6CE00726D81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B30B63AE16C2B6CE00726D81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B30B63B216C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Campusplan.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		B30B63B216C2B6CE00726D81 /* Campusplan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Campusplan-Info.plist"; sourceTree = "<group>"; };
 		B30B63B616C2B6CE00726D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B30B63B816C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Campusplan.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		B30B63B816C2B6CE00726D81 /* Campusplan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Campusplan-Prefix.pch"; sourceTree = "<group>"; };
 		B30B63B916C2B6CE00726D81 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
 		B30B63BA16C2B6CE00726D81 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
 		B30B63C816C2B6CE00726D81 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
@@ -62,25 +49,6 @@
 		B32F871A16C2C08500F7F53E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B32F871B16C2C08500F7F53E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		B32F871D16C2C0D700F7F53E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		B32F871F16C2C7FA00F7F53E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		B32F872016C2C7FA00F7F53E /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
-		B32F872116C2C7FA00F7F53E /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
-		B32F872516C2CD9000F7F53E /* background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x~ipad.png"; sourceTree = "<group>"; };
-		B32F872616C2CD9000F7F53E /* background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background~ipad.png"; sourceTree = "<group>"; };
-		B3E969A116E7505E000098EC /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
-		B3E969A316E75069000098EC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
-		B3E969A516E7507C000098EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
-		B3E969A716E75081000098EC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
-		B3E969A916E7508F000098EC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		B3E969AA16E7508F000098EC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		B3E969AB16E7508F000098EC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		B3E969BD16E75590000098EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		B3E969BF16E7559F000098EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		B3E969C116E755A7000098EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		B3E969C316E755B8000098EC /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
-		B3E969C516E757FA000098EC /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		B3E969C716E75800000098EC /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
-		B3E969C916E75827000098EC /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +69,7 @@
 		B30B639E16C2B6CE00726D81 = {
 			isa = PBXGroup;
 			children = (
+				5853E8431B52AAE5009A1F75 /* Images.xcassets */,
 				B30B63B016C2B6CE00726D81 /* CampusPlan */,
 				B30B63A916C2B6CE00726D81 /* Frameworks */,
 				B30B63A816C2B6CE00726D81 /* Products */,
@@ -110,7 +79,7 @@
 		B30B63A816C2B6CE00726D81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B30B63A716C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename.app */,
+				B30B63A716C2B6CE00726D81 /* Campusplan.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,29 +114,12 @@
 		B30B63B116C2B6CE00726D81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B32F871F16C2C7FA00F7F53E /* background.png */,
-				B32F872016C2C7FA00F7F53E /* background@2x.png */,
-				B32F872116C2C7FA00F7F53E /* background-568h@2x.png */,
-				B32F872516C2CD9000F7F53E /* background@2x~ipad.png */,
-				B32F872616C2CD9000F7F53E /* background~ipad.png */,
-				B30B63B216C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Info.plist */,
+				5891BC791B5AFF0F0074AD36 /* background.png */,
+				5891BC7A1B5AFF0F0074AD36 /* background~ipad.png */,
+				B30B63B216C2B6CE00726D81 /* Campusplan-Info.plist */,
 				B30B63B616C2B6CE00726D81 /* main.m */,
 				B30FEE4216CD14CB0032D483 /* InfoPlist.strings */,
-				B30B63B816C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename-Prefix.pch */,
-				B3E969C916E75827000098EC /* Default-Portrait@2x~ipad.png */,
-				B3E969C716E75800000098EC /* Default-Landscape@2x~ipad.png */,
-				B3E969C516E757FA000098EC /* Default-Landscape~ipad.png */,
-				B3E969C316E755B8000098EC /* Default-Portrait~ipad.png */,
-				B3E969C116E755A7000098EC /* Default-568h@2x.png */,
-				B3E969BF16E7559F000098EC /* Default@2x.png */,
-				B3E969BD16E75590000098EC /* Default.png */,
-				B3E969A716E75081000098EC /* Icon@2x.png */,
-				B3E969A516E7507C000098EC /* Icon.png */,
-				B3E969A316E75069000098EC /* Icon-72.png */,
-				B3E969A116E7505E000098EC /* Icon-72@2x.png */,
-				B3E969A916E7508F000098EC /* Icon-Small-50.png */,
-				B3E969AA16E7508F000098EC /* Icon-Small.png */,
-				B3E969AB16E7508F000098EC /* Icon-Small@2x.png */,
+				B30B63B816C2B6CE00726D81 /* Campusplan-Prefix.pch */,
 				B30FEE3316CD134F0032D483 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
@@ -176,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B30B63A616C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename */ = {
+		B30B63A616C2B6CE00726D81 /* Campusplan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "Campusplan.temp_caseinsensitive_rename" */;
+			buildConfigurationList = B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "Campusplan" */;
 			buildPhases = (
 				B30B63A316C2B6CE00726D81 /* Sources */,
 				B30B63A416C2B6CE00726D81 /* Frameworks */,
@@ -188,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = Campusplan.temp_caseinsensitive_rename;
+			name = Campusplan;
 			productName = CampusPlan;
-			productReference = B30B63A716C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename.app */;
+			productReference = B30B63A716C2B6CE00726D81 /* Campusplan.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,8 +154,13 @@
 				CLASSPREFIX = CP;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Ifgi;
+				TargetAttributes = {
+					B30B63A616C2B6CE00726D81 = {
+						DevelopmentTeam = WCD6SFKYC5;
+					};
+				};
 			};
-			buildConfigurationList = B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "Campusplan" */;
+			buildConfigurationList = B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "CampusPlan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B30B63A616C2B6CE00726D81 /* Campusplan.temp_caseinsensitive_rename */,
+				B30B63A616C2B6CE00726D81 /* Campusplan */,
 			);
 		};
 /* End PBXProject section */
@@ -228,29 +185,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32F872216C2C7FA00F7F53E /* background.png in Resources */,
-				B32F872316C2C7FA00F7F53E /* background@2x.png in Resources */,
-				B32F872416C2C7FA00F7F53E /* background-568h@2x.png in Resources */,
-				B32F872716C2CD9000F7F53E /* background@2x~ipad.png in Resources */,
-				B32F872816C2CD9000F7F53E /* background~ipad.png in Resources */,
 				B30FEE3116CD134F0032D483 /* Localizable.strings in Resources */,
+				5891BC7B1B5AFF0F0074AD36 /* background.png in Resources */,
 				B30FEE4016CD14A20032D483 /* MainStoryboard_iPad.storyboard in Resources */,
 				B30FEE4116CD14A20032D483 /* MainStoryboard_iPhone.storyboard in Resources */,
 				B30FEE4316CD14CB0032D483 /* InfoPlist.strings in Resources */,
-				B3E969A216E7505E000098EC /* Icon-72@2x.png in Resources */,
-				B3E969A416E75069000098EC /* Icon-72.png in Resources */,
-				B3E969A616E7507C000098EC /* Icon.png in Resources */,
-				B3E969A816E75081000098EC /* Icon@2x.png in Resources */,
-				B3E969AC16E7508F000098EC /* Icon-Small-50.png in Resources */,
-				B3E969AD16E7508F000098EC /* Icon-Small.png in Resources */,
-				B3E969AE16E7508F000098EC /* Icon-Small@2x.png in Resources */,
-				B3E969BE16E75590000098EC /* Default.png in Resources */,
-				B3E969C016E7559F000098EC /* Default@2x.png in Resources */,
-				B3E969C216E755A7000098EC /* Default-568h@2x.png in Resources */,
-				B3E969C416E755B8000098EC /* Default-Portrait~ipad.png in Resources */,
-				B3E969C616E757FA000098EC /* Default-Landscape~ipad.png in Resources */,
-				B3E969C816E75800000098EC /* Default-Landscape@2x~ipad.png in Resources */,
-				B3E969CA16E75827000098EC /* Default-Portrait@2x~ipad.png in Resources */,
+				5891BC7C1B5AFF0F0074AD36 /* background~ipad.png in Resources */,
+				5853E8441B52AAE5009A1F75 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,11 +293,17 @@
 		B30B63CE16C2B6CE00726D81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Prefix.pch";
-				INFOPLIST_FILE = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = Campusplan.temp_caseinsensitive_rename;
+				GCC_PREFIX_HEADER = "CampusPlan/Campusplan-Prefix.pch";
+				INFOPLIST_FILE = "CampusPlan/Campusplan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Campusplan;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -364,11 +311,17 @@
 		B30B63CF16C2B6CE00726D81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Prefix.pch";
-				INFOPLIST_FILE = "CampusPlan/Campusplan.temp_caseinsensitive_rename-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = Campusplan.temp_caseinsensitive_rename;
+				GCC_PREFIX_HEADER = "CampusPlan/Campusplan-Prefix.pch";
+				INFOPLIST_FILE = "CampusPlan/Campusplan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Campusplan;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -376,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "Campusplan" */ = {
+		B30B63A216C2B6CE00726D81 /* Build configuration list for PBXProject "CampusPlan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B30B63CB16C2B6CE00726D81 /* Debug */,
@@ -385,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "Campusplan.temp_caseinsensitive_rename" */ = {
+		B30B63CD16C2B6CE00726D81 /* Build configuration list for PBXNativeTarget "Campusplan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B30B63CE16C2B6CE00726D81 /* Debug */,
