@@ -9,7 +9,7 @@
 #import "CPViewController.h"
 #import "Reachability.h"
 
-static NSString * const kWebAppUrl = @"https://app.uni-muenster.de"; // WebApp URL
+static NSString * const kWebAppUrl = @"http://app.uni-muenster.de"; // WebApp URL
 static float const kFadeInOutAnimationDuration = 0.3; // Animation Duration for fading in and out
 
 @interface CPViewController () <UIWebViewDelegate>
