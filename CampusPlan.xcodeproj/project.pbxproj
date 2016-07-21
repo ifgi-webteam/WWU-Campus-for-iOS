@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C13EE51D40DE38007AC780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C13EE41D40DE38007AC780 /* LaunchScreen.storyboard */; };
 		5853E8441B52AAE5009A1F75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5853E8431B52AAE5009A1F75 /* Images.xcassets */; };
 		5891BC7B1B5AFF0F0074AD36 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5891BC791B5AFF0F0074AD36 /* background.png */; };
 		5891BC7C1B5AFF0F0074AD36 /* background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5891BC7A1B5AFF0F0074AD36 /* background~ipad.png */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03C13EE41D40DE38007AC780 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5853E8431B52AAE5009A1F75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Campusplan/Images.xcassets; sourceTree = "<group>"; };
 		5891BC791B5AFF0F0074AD36 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = assets/background.png; sourceTree = SOURCE_ROOT; };
 		5891BC7A1B5AFF0F0074AD36 /* background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background~ipad.png"; path = "assets/background~ipad.png"; sourceTree = SOURCE_ROOT; };
@@ -107,6 +109,7 @@
 				B32F871A16C2C08500F7F53E /* Reachability.h */,
 				B32F871B16C2C08500F7F53E /* Reachability.m */,
 				B30B63B116C2B6CE00726D81 /* Supporting Files */,
+				03C13EE41D40DE38007AC780 /* LaunchScreen.storyboard */,
 			);
 			path = CampusPlan;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30FEE3116CD134F0032D483 /* Localizable.strings in Resources */,
+				03C13EE51D40DE38007AC780 /* LaunchScreen.storyboard in Resources */,
 				5891BC7B1B5AFF0F0074AD36 /* background.png in Resources */,
 				B30FEE4016CD14A20032D483 /* MainStoryboard_iPad.storyboard in Resources */,
 				B30FEE4116CD14A20032D483 /* MainStoryboard_iPhone.storyboard in Resources */,
